@@ -1,0 +1,9 @@
+a=float(input())
+b=round(a)
+#print(b)
+if (a==0):
+    print("Zero")
+elif (b%2==0):
+    print("Even")
+else:
+    print("Odd")
