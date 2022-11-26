@@ -1,0 +1,7 @@
+A=float(input())
+B=2*(22/7)*A
+#print("circumfrence:",B)
+if A < 0:
+    print("Error")
+else:
+    print(round(B,2))
