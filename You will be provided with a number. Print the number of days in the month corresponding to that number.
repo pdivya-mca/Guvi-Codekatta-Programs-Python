@@ -1,0 +1,16 @@
+no=int(input())
+
+if(no<=0 or no>12):
+    print("Error")
+
+elif(no==2):
+    print("28 days")
+
+elif(no%2==0 and no!=8 and no!=12):
+    print ("30 days")
+
+elif(no==8 or no==12):
+    print("31 days")
+
+else:
+    print("31 days")
