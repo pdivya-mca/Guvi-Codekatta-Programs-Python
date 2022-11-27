@@ -1,0 +1,5 @@
+#Formula to convert celcius to fahrenheit *** fahrenheit=celcius*1.8+32
+
+celcius = float(input())
+farenheit = celcius*1.8+32
+print("%.2f"%farenheit)
