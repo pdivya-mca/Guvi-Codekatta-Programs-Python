@@ -1,0 +1,5 @@
+import math
+a=int(input())
+cal=(math.sqrt(3))*(a**2)
+res=cal/4
+print("%.2f"%res)
