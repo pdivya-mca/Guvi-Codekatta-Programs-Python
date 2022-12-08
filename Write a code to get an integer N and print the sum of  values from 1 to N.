@@ -1,0 +1,3 @@
+no=int(input())
+sum=no*(no+1)/2
+print(round(sum))
