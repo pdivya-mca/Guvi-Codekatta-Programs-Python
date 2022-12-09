@@ -1,0 +1,3 @@
+a=int(input())
+res=(a*a)*a
+print(res)
