@@ -1,0 +1,3 @@
+str1=str(input())
+result=len(str1)-str1.count(" ")
+print(result)
