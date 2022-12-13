@@ -1,0 +1,3 @@
+no1,no2=(int(no1) for no1 in input().split())
+res=min(no1,no2)
+print(res)
