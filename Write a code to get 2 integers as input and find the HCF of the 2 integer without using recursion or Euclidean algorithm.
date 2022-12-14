@@ -1,0 +1,6 @@
+a,b=(int(no) for no in input().split())
+while a%b!=0:
+  rem=a%b
+  a=b
+  b=rem
+print(b)
