@@ -1,0 +1,7 @@
+n=int(input())
+l,r=(int(no) for no in input().split())
+if n>l and n<r:
+  print('yes')
+else:
+  print('no')
+    
