@@ -1,0 +1,3 @@
+no,no2= (int(no) for no in input().split() )
+for i in range(0,no2):
+   print(no)
