@@ -1,0 +1,3 @@
+k=int(input())
+num=k*(k+1)/2
+print(int(num))
