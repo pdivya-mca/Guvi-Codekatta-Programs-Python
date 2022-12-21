@@ -1,0 +1,5 @@
+A,B,C=(int(no) for no in input().split())
+if(A!=B!=C):
+  print('yes')
+else:
+  print('no')
