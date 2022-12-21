@@ -1,0 +1,6 @@
+N,M=(int(no) for no in input().split())
+result=(N+M)%2
+if result==0:
+  print('even')
+else:
+  print('odd')
