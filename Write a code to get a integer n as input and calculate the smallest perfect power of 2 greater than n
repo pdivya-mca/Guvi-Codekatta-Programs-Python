@@ -1,0 +1,6 @@
+n=int(input())
+N=1
+while n>0:
+  N=N<<1
+  n=n>>1
+print(N)
