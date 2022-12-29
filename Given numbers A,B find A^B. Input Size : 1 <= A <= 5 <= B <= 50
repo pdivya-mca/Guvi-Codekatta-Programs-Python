@@ -1,0 +1,4 @@
+import math
+A,B=(int(no) for no in input().split())
+result=math.pow(A,B)
+print(round(result))
