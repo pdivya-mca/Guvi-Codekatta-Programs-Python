@@ -1,0 +1,18 @@
+def carry_sum(n,m):
+  multiply=1
+  res=0
+  while(n or m):
+    
+    sum_each=((n%10)+(m%10))
+    sum_each=sum_each%10
+    res=(sum_each*multiply)+res
+
+    n=n//10
+    m=m//10
+    multiply=multiply*10
+  return(res)
+
+
+n,m=(int(no) for no in input().split())
+
+print(carry_sum(n, m))
