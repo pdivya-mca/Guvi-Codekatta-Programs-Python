@@ -1,0 +1,7 @@
+N=int(input())
+inp=input().split()
+index=int(inp[0])
+for i in inp:
+  index=index|int(i)
+
+print(index)
