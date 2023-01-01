@@ -1,0 +1,6 @@
+no=int(input())
+x=0
+while no!=0:
+  x=x+(no%10)
+  no=no//10
+print(x)
