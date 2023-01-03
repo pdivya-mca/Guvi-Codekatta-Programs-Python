@@ -1,0 +1,17 @@
+inp=int(input())
+ls1=[]
+ls2=[]
+x=0
+while inp!=0:
+  x=inp%10
+  if x%2==0:
+    ls1.append(x)
+  else:
+    ls2.append(x)
+  inp=inp//10
+#ls1.sort()
+
+ls1.sort()
+print(*ls1)
+ls2.sort()
+print(*ls2)  
