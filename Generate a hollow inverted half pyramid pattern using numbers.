@@ -1,0 +1,11 @@
+n = int(input())
+for i in range(n):
+  p=1
+  for j in range(i,n):
+    if(i==0 or j==i or j==n-1):
+      print(p, end="")
+    else:
+      print("", end=" ")
+    p+=1
+
+  print()
