@@ -1,0 +1,10 @@
+def pattern(n):
+  for i in range(n):
+    l=[]
+    for j in range(n-i):
+      l.append("*")
+    print('  '.join(l))
+
+
+n=int(input())
+pattern(n)
