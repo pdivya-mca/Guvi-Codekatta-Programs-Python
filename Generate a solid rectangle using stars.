@@ -1,0 +1,9 @@
+
+R,C=(int(no) for no in input().split())
+
+for i in range(1,R+1):
+  l=[]
+  for j in range(C):
+    l.append("*")
+  print(*l)
+  
