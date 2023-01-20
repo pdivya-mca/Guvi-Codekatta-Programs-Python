@@ -1,0 +1,13 @@
+from posixpath import join
+n=int(input())
+for i in range(n):
+  l=[]
+  for j in range(i):
+    #print(" ",end="")
+    l.append(" ")
+
+  for j in range (i,n):
+    #print("*", end="")
+    l.append("*")
+  print("".join(l))
+  
