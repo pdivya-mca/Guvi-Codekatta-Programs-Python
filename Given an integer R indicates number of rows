@@ -1,0 +1,6 @@
+def pattern(n):
+  for i in range(n):
+    print("1"*n)
+
+n=int(input())
+pattern(n)
