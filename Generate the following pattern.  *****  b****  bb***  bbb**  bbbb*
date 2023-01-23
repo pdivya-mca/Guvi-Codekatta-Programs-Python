@@ -1,0 +1,11 @@
+n=int(input())
+p=n
+for i in range(n):
+  for j in range(i):
+    print("b",end="")
+
+  for j in range (i,n):
+    print("*", end="")
+  p=p-1
+  
+  print()
