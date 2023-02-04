@@ -1,0 +1,25 @@
+Input Description:
+Given an even integer R indicates number of rows.
+
+Where 1<=R<=100
+
+Output Description:
+Print the number pattern based on the given integer R.
+
+Sample Input :
+5
+Sample Output :
+12345
+1234
+123
+12
+1
+
+
+n=int(input())
+for i in range(n):
+  p=1
+  for j in range(i,n):
+    print(p,end="")
+    p+=1
+  print()
