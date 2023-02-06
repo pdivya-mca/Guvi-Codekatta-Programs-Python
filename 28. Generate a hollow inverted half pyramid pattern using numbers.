@@ -1,0 +1,41 @@
+Generate a hollow inverted half pyramid pattern using numbers.
+
+Input Description:
+Given an integer R indicates number of rows.
+
+Where 1<=R<=100.
+
+Output Description:
+Print the hollow inverted half pyramid pattern using numbers based on the given integer R.
+
+Sample Input :
+5
+Sample Output :
+    1
+   1 2
+  1   3
+ 1     4
+1 2 3 4 5
+
+
+
+n=int(input())
+
+for i in range(n):
+  p=1
+  l=[]
+  for j in range(i,n-1):
+    #print("",end=" ")
+    l.append("")
+
+  for j in range(i+1):
+    if i==n-1 or j==0 or j==i:
+      #print (p,end=" ")
+      l.append(p)
+    else:
+      #print(" ",end=" ")
+      l.append(" ")
+      #print(*l)
+    p=p+1
+  #print()
+  print(*l)
