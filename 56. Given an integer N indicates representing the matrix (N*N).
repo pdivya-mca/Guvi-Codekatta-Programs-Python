@@ -1,0 +1,35 @@
+Input Description:
+Given an integer N indicates representing the matrix (N*N).
+
+where 1<=N<=100.
+
+Output Description:
+Print the N*N character matrix with the character F(Female), M(Male), C(Children).
+
+Sample Input :
+7
+Sample Output :
+M F F F F F M
+F M C C C M F
+F C M C M C F
+F C C M C C F
+F C M C M C F
+F M C C C M F
+M F F F F F M
+
+
+
+def pattern(n):
+    for i in range(n):
+        l = []
+        for j in range(n):
+            if i == j or i+j == n-1:
+                l.append('M')
+            elif i == 0 or j == 0 or i == n-1 or j == n-1:
+                l.append('F')
+            else:
+                l.append('C')
+        print(*l)
+        
+n = int(input())
+pattern(n)
