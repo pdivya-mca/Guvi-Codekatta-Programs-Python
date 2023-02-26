@@ -1,0 +1,39 @@
+58. Write a code to generate a pyramid of numbers and aplhabets.
+
+Input Description:
+Given an integer R indicates number of rows.
+
+Where 1<=R<=100
+
+Output Description:
+Print the number half pyramid pattern of multiples based on the given integer R.
+
+Sample Input :
+8
+Sample Output :
+       A1
+      AB12
+     ABC123
+    ABCD1234
+   ABCDE12345
+  ABCDEF123456
+ ABCDEFG1234567
+ABCDEFGH12345678
+
+
+n=int(input())
+
+for i in range(n):
+  p=65
+  for j in range(i+1,n):
+    print(" ",end="")
+
+  for j in range(i+1):
+    print (chr(p),end="")
+    p+=1
+   
+  p=1
+  for j in range(i+1): #cols
+    print(p,end="")
+    p=p+1
+  print() # after 1 row print in new line
