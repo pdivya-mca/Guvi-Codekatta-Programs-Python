@@ -8,7 +8,7 @@ Where 1<=R<=100.
 Output Description:
 Print the hollow inverted half pyramid pattern using numbers based on the given integer R.
 
-Sample Input :
+ Input :
 5
 Sample Output :
     1
