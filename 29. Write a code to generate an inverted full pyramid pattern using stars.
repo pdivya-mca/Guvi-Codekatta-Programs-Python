@@ -1,6 +1,6 @@
 Write a code to generate an inverted full pyramid pattern using stars.
 
-Input Description:
+Input Desc:
 Given an integer R indicates number of rows.
 
 Where 1<=R<=100.
@@ -8,7 +8,7 @@ Where 1<=R<=100.
 Output Description:
 Print the star inverted full pyramid with the given integer R.
 
-Sample Input :
+Sample Input
 5
 Sample Output :
 * * * * *
